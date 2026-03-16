@@ -1,0 +1,61 @@
+{
+  "name": "nocal-raycast-extension",
+  "title": "nocal",
+  "description": "Search notes and manage your day from Raycast with nocal.",
+  "version": "0.1.0",
+  "author": "nocal",
+  "license": "MIT",
+  "private": false,
+  "icon": "nocal-icon.svg",
+  "categories": [
+    "Productivity"
+  ],
+  "commands": [
+    {
+      "name": "search-notes",
+      "title": "Search Notes",
+      "description": "Browse and search your nocal notes",
+      "mode": "view",
+      "icon": "nocal-icon.svg"
+    },
+    {
+      "name": "create-note",
+      "title": "Create Note",
+      "description": "Create a new note in nocal",
+      "mode": "view",
+      "icon": "nocal-icon.svg"
+    },
+    {
+      "name": "upcoming-meetings",
+      "title": "Upcoming Meetings",
+      "description": "See upcoming meetings from nocal",
+      "mode": "view",
+      "icon": "nocal-icon.svg"
+    },
+    {
+      "name": "open-nocal",
+      "title": "Open Nocal",
+      "description": "Open the nocal desktop app",
+      "mode": "no-view",
+      "icon": "nocal-icon.svg"
+    }
+  ],
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  },
+  "dependencies": {
+    "@raycast/api": "^1.100.0",
+    "@raycast/utils": "^1.18.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.10",
+    "eslint": "^9.22.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
+  }
+}
