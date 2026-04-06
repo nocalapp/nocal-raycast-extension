@@ -2,7 +2,7 @@
   "name": "nocal-raycast-extension",
   "title": "nocal",
   "description": "Search notes and manage your day from Raycast with nocal.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "brianmuse",
   "owner": "nocal",
   "access": "public",
